@@ -257,14 +257,21 @@ nav a:hover::before {
   }
   
 
-.responsabilidad h2{
+  .responsabilidad h2 {
     font-size: 20px;
     margin-top: 60px;
-    border: solid ;
-    margin-left: 800px;
-    margin-right: 800px;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 600px; /* Define un tamaño máximo para el ancho */
+    min-width: 300px; /* Define un tamaño mínimo para el ancho */
+    border: solid 2px #30685a;
     border-radius: 20px;
     padding: 10px;
+    text-align: center; /* Centra el texto */
+    word-wrap: break-word; /* Rompe las palabras largas */
+    overflow-wrap: break-word; /* Compatibilidad adicional para navegadores */
+    background-color: #f1f1f1;
+    color: #30685a;
 }
 
 .container {
