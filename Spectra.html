@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+  <header>
+    <div class="logo">
+      <img src="./img/Principal-modified.png" alt="Logo">
+      <h2>Spectra Sync</h2>
+    </div>
+    <nav>
+      <a href="Spectra.html" class="nav-link">Inicio</a>
+      <a href="Slider Proyectos.html" class="nav-link">Proyectos</a>
+      <a href="Conocenos.html" class="nav-link">Conocenos</a>
+      <a href="Sobre Nosostros.html">Grafico</a>
+      <a href="#planes" class="nav-link">Planes</a>
+      <a href="#contacto" class="nav-link">Contacto</a>
+    </nav>
+  </header>
+
+  <section class="about">
+    <div class="about-content">
+      <div class="about-image">
+        <img src="./img/Principal.png" alt="Imagen Presentacion">
+      </div>
+      <div class="about-text">
+        <h2>¿Quiénes somos?</h2>
+        <p><strong> Spectra Sync </strong>, nos especializamos en el desarrollo y distribución de cristales inteligentes
+          para aplicaciones innovadoras, buscando transformar la manera en que interactuamos con la luz y el ambiente.
+          Nuestros productos están diseñados para mejorar la eficiencia energética y aportar una experiencia visual
+          única a nuestros clientes. Si necesitas más detalles específicos sobre los servicios que ofrecen o algún otro
+          aspecto de tu empresa, no dudes en decirme. <br><br>¡Estoy aquí para ayudarte!</p>
+      </div>
+    </div>
+  </section>
+
+  <section class="slider-container">
+    <h2>Ideas de Proyectos</h2>
+    <div class="slider-frame">
+      <ul>
+        <li><img src="./Carrusel/Cristal Inteligente 1.jpg" alt="Foto 1"></li>
+        <li><img src="./Carrusel/Cristal Inteligente 2.jpg" alt="Foto 2"></li>
+        <li><img src="./Carrusel/Cristal Inteligente 3.jpg" alt="Foto 3"></li>
+        <li><img src="./Carrusel/Cristal Inteligente 4.jpg" alt="Foto 4"></li>
+      </ul>
+    </div>
+    <div id="planes"></div>
+    <div class="subscription-table-hover">
+      <div class="plan">
+        <h2>Free</h2>
+        <p class="price">€Free/month</p>
+        <ul>
+          <li>Funciones Limitadas</li>
+          <li>Soporte Limitado</li>
+          <li>1 Dispositivo</li>
+          <li>Sin asistencia</li>
+          <li>Contiene Anuncios</li>
+        </ul>
+        <a href="Compra.html"> 
+          <button class="subscribe">Empezar</button>
+        </a>      </div>
+      <div class="plan active">
+        <h2>Pro</h2>
+        <p class="price">€9.99/month</p>
+        <ul>
+          <li>5 Dispositivos</li>
+          <li>Contiene todas las Funciones</li>
+          <li>Personaliza como quieras</li>
+          <li>Cancela en cualquier momento</li>
+          <li>Soporte 360 dias al año</li>
+          <li>Sin Anuncios</li>
+        </ul>
+        <a href="Compra.html"> 
+          <button class="subscribe">Empezar</button>
+        </a>      </div>
+      <div class="plan">
+        <h2>Empresa</h2>
+        <p class="price">€85/month</p>
+        <ul>
+          <li>Oferta Empresa</li>
+          <li>Todas Las Funciones</li>
+          <li>Personaliza como quieras</li>
+          <li>15% mas barato</li>
+          <li>Sin Anuncios</li>
+        </ul>
+       <a href="Compra.html"> 
+        <button class="subscribe">Empezar</button>
+      </a>
+      </div>
+    </div>
+
+    <div class="responsabilidad">
+      <h2>El dinero de los planes de pago sera destinado a la reforestación y limpieza <br> de los pinares de las Islas
+        Canarias</h2>
+    </div>
+
+    <div id="contacto" class="container">
+      <div class="form-container">
+        <h2>Formulario de Preguntas</h2>
+        <form action="#">
+          <label for="nombre">Nombre:</label>
+          <input type="text" id="nombre" name="nombre" required>
+
+          <label for="email">Correo electrónico:</label>
+          <input type="email" id="email" name="email" required>
+
+          <label for="pregunta">Pregunta:</label>
+          <textarea id="pregunta" name="pregunta" rows="4" required></textarea>
+
+          <button type="submit">Enviar</button>
+        </form>
+      </div>
+
+      <div class="map-container">
+        <h2>Ubicación</h2>
+        <iframe
+          src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d4340.724410489249!2d-15.444512123882665!3d27.849764719194436!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xc409f0580fc442f%3A0x19505c1bbb7ebc8d!2sAv.%20de%20Canarias%2C%2035110%20Vecindario%2C%20Las%20Palmas!5e1!3m2!1ses!2ses!4v1733402539594!5m2!1ses!2ses"
+          width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"
+          referrerpolicy="no-referrer-when-downgrade"></iframe>
+      </div>
+    </div>
+
+    <marquee>"¿Tienes preguntas o necesitas más información? ¡Contáctanos y te ayudaremos encantados!"</marquee>
+ 
+    <footer>
+      <div class="footer-content">
+        <p>&copy; 2024 Spectra Sync. Todos los derechos reservados.</p>
+      </div>
+    </footer>
+
+</body>
+
+</html>
